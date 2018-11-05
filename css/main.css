@@ -181,13 +181,12 @@ a{
 
 /*animate*/
 
-.dot1, .dot3, .dot2{
+.dot1, .dot2{
 	position: absolute;
 	z-index: -10;
 	top: 80px;
-	color: rgba(101, 68, 255, 1);
 	opacity: .7;
-
+  color: rgba(101, 68, 255, 1);
 	animation-name: ant; /*與keyframe相同*/
 	animation-duration: 1.5s; 
 	animation-iteration-count: 1; /*只會跑一次*/
@@ -210,7 +209,7 @@ a{
 	to {top: 80px; opacity:.7; }
 }
 
-.dot1, .dot3{
+.dot1{
 	left: 74px;
 }
 
